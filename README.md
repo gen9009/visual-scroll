@@ -6,8 +6,7 @@
 npm install / pnpm install
 
 npm run dev / pnpm dev
-``
-
+```
 
 ## 窗口resize
 
