@@ -5,6 +5,10 @@ export const router = createRouter({
     {
       path: '/',
       component: () => import('@/index.vue')
+    },
+    {
+      path: '/demo-scrollTimeline',
+      component: () => import('@/demo-scrollTimeline.vue')
     }
   ]
 })
