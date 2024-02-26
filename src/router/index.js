@@ -9,6 +9,14 @@ export const router = createRouter({
     {
       path: '/demo-scrollTimeline',
       component: () => import('@/demo-scrollTimeline.vue')
+    },
+    {
+      path: '/demo-gsap',
+      component: () => import('@/demo-gsap.vue')
+    },
+    {
+      path: '/demo-ScrollMagic',
+      component: () => import('@/demo-ScrollMagic.vue')
     }
   ]
 })
